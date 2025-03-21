@@ -95,7 +95,7 @@ function Payment() {
         <div className={classes.flex}>
           <h5>Delivery Address</h5>
           <div>
-            <div>Eyuel</div>
+            <div>{user?.email?.split("@")[0]}</div>
             <div>17 Lusy</div>
             <div>Hossana Ethiopia</div>
           </div>

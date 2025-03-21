@@ -49,7 +49,7 @@ function Signup() {
         setLoding({...Loding, signUp: false})
         navigate(navStateData?.state?.redirect || '/');
       }).catch((error)=>{
-        setEmail(error.message);
+        setError(error.message);
         setLoding({...Loding, signUp: false})
       })
     }
