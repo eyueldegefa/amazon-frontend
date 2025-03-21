@@ -1,0 +1,43 @@
+.shadow{
+    position: relative;
+}
+.shadow::before{
+    content: " ";
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 400px;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(255,255,255,0),
+        rgba(255,255,255)
+    );
+}
+.slider{
+    margin-top: 14vh;
+}
+@media (max-width: 555px){
+    .slider img {
+        margin-top: 10vh !important;
+        height: 230px;
+    }
+    .shadow::before{
+        height: 20px !important;
+    }
+}
+@media (max-width: 760px){
+    .slider{
+        margin-top: 13vh !important;
+    }
+    .shadow::before{
+        height: 90px !important;
+    }
+}
+@media (max-width: 1025px){
+    .slider{
+        margin-top: 19vh;
+    }
+    .shadow::before{
+        height: 150px;
+    }
+}

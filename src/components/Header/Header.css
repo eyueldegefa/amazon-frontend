@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header_wrapper{
+    background-color: #131921;
+    position: fixed !important;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+}
+.upperHeader{
+    cursor: pointer;
+    justify-content: center;
+    place-items: center;
+}
+.upperHeader .headerColumns{
+    display: flex;
+    justify-content: center;
+}
+.hover_border:hover{
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 2px 1px;
+}
+.logo{
+    width: 120px;
+    height: 50px;
+}
+/* Show location part */
+.location{
+    display: block;
+}
+.icons{
+    padding-top: 50px;
+    height: 1px;
+}
+.unique{
+    font-size: 13px;
+    padding-left: 20px;
+    padding-top: 50px;
+    color: silver;
+}
+/* ------------------------------ */
+
+/* Change the category of products */
+.arrange{
+    background-color: silver;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.arrange:hover{
+    background-color: gray;
+}
+/* -------------------------------- */
+/* Input to Search the product */
+.inputField{
+    width: 370px;
+    font-size: 15px;
+    padding-top: -5px;
+}
+.search_logo{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px ;
+    background-color: var(--primary-color);
+}
+.search_logo:hover{
+    background-color: var(--primary-shadow);
+}
+/* ------------------------------------- */
+/* Change Language part */
+.flag{
+    width: 28px;
+    height: 18px;
+}
+/* ---------------------------------- */
+/* Cart */
+.count{
+    position: absolute;
+    font-size: 20px;
+}
+.cart{
+    padding-top: 18px;
+}
+/* ---------------------------------- */
+/* Second row of Header links */
+.second{
+    background-color: #232F3E;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    font-size: 14px;
+    padding: 6px 10px;
+}
+.second div:hover{
+    cursor: pointer;
+}
+/* -------------------------------------------- */
+/* show only on mobile (small) device */
+.listShow{
+    background-color: #232F3E;
+    position: fixed !important;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    cursor: pointer;
+    padding: 10px 40px;
+    opacity: 0.9;
+}
+.close{
+    text-align: end;
+    width: 10%;
+    margin-left: auto;
+}
+/* --------------------------------------------- */
