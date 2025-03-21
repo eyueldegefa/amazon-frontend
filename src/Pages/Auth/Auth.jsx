@@ -50,6 +50,7 @@ function Signup() {
         navigate(navStateData?.state?.redirect || '/');
       }).catch((error)=>{
         setEmail(error.message);
+        setLoding({...Loding, signUp: false})
       })
     }
   }
