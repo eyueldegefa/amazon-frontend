@@ -18,6 +18,7 @@
 }
 @media (max-width: 555px){
     .slider img {
+        margin-top: 3px;
         height: 230px;
     }
     .shadow::before{
